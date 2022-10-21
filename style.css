@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+}
+
+/*header section*/
+header{
+	background-color: #23232e;
+	text-align: center;
+	padding: 50px 0;
+}
+header img{
+	width: 90px;
+	padding-bottom: 50px;
+}
+header h1{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: Segoe UI;
+}
+header p{
+	color: #ffffff;
+	font-family: Segoe UI;
+	width: 24%;
+	margin: auto;
+	font-size: 13px;
+	padding-bottom: 100px;
+}
+header a i{
+	padding: 10px 13px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+}
+
+/*what i do section*/
+.what-i-do{
+	background-image: url(img/back.png);
+	background-size: cover;
+	text-align: center;
+	font-family: Segoe UI;
+	color: #464b4f;
+	padding: 50px 0;
+}
+.what-i-do .wp{
+	width: 44%;
+	margin: auto;
+	font-size: 25px;
+	line-height: 35px;
+	color: #464b4f;
+}
+.what-i-do h1{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: Segoe UI;
+}
+.des{
+	width: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+.des .col{
+	width: 29%;
+	margin: 0 2%;
+	float: left;
+	text-align: justify;
+}
+.des .col p{
+	font: 15PX;
+	color: #888a8b;
+}
+/*my work section*/
+.my-work{
+	background-color: #23232e;
+	overflow: hidden;
+	text-align: center;
+	font-family: Segoe UI;
+	margin: auto;
+	padding: 70px 0;
+}
+.my-work h1{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: Segoe UI;
+}
+.my-work nav ul{
+	list-style-type: none;
+}
+.my-work nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 0 17px 20px 17px;
+}
+.my-work nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 12px;
+}
+ nav ul li a:hover{
+	border-bottom: 2px solid #7b77c9;
+}
+.des img{
+	width: 100%;
+}
+.des .col h2{
+	font-size: 15px;
+	font-weight: 500;
+	color: #ffffff;
+	text-align: center;
+}
+.des .col .mp{
+	color: #818baa;
+	text-align: center;
+	padding-bottom: 15px;
+}
+button{
+	background-color: #7b77c9;
+	padding: 15px 30px;
+	font-size: 17px;
+	color: #ffffff;
+	border-radius: 5px;
+	border: none;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+/*photography section*/
+.photo{
+	padding: 60px 0;
+	text-align: center;
+	background-image: url(img/back.png);]
+	background-size: cover;
+}
+.photo h1{
+	color: #464b4f;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: Segoe UI;
+}
+.photo p{
+	color: #888a8b;
+	width: 38%;
+	font-family: Segoe UI;
+	font-size: 20px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.photo .col{
+	margin-bottom: 4%;
+}
+
+/*subscribe section*/
+.subs{
+	background-color: #23232e;
+	text-align: center;
+	padding: 150px 0;
+}
+.subs a{
+	color: #ffffff;
+	font-size: 50px;
+}
+.subs p{
+	color: #ffffff;
+	width: 29%;
+	margin: auto;
+	padding: 20px 0;
+	font-family: Segoe UI;
+	line-height: 30px;
+}
+.subs input{
+	padding: 17px;
+	width: 20%;
+	border-radius: 5px;
+	border: none;
+}
+
+/*footer section*/
+footer{
+	background-image: url(img/back.png);
+	background-size: cover;
+	text-align: center;
+	padding: 70px 0;
+}
+footer a{
+	color: #7c7c7c;
+	font-size: 30px;
+	padding: 50px 20px;
+	display: inline-block;
+}
+footer p{
+	color: #7c7c7c;
+	font-family: Segoe UI;
+	
+}
+
+@media all and (max-width: 768px){
+	.what-i-do .wp{
+		width: 80%;
+	}
+	.des{
+		width: 80%;
+	}
+	.photo p{
+		width: 80%;
+	}
+	.subs p{
+		width: 50%;
+	}
+}
+@media all and (max-width: 376px){
+	header img{
+		width: 100px;
+	}
+	header h1{
+		font-size: 40px;
+	}
+	header p{
+		width: 50%;
+	}
+	.what-i-do .wp{
+		width: 80%;
+		text-align: justify;
+	}
+	.des{
+		width: 80%;
+	}
+	.des .col{
+		width: 95%;
+	}
+	.des .col h2{
+		font-size: 20px;
+	}
+	.my-work ul{
+		padding: 0;
+	}
+	.my-work nav ul li{
+		display: block;
+		padding: 15px;
+		width: 60%;
+		margin: auto;
+	}
+	.my-work nav ul li a{
+		font-size: 20px;
+	}
+	.photo h1{
+		font-size: 40px;
+	}
+	.photo p{
+		text-align: justify;
+		font-size: 18px;
+		width: 70%;
+	}
+	.subs p{
+		width: 80%;
+	}
+	.subs input{
+		width: 70%;
+	}
+	button{
+		width: 80%;
+	}
+}
